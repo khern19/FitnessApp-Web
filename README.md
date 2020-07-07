@@ -20,7 +20,7 @@
 
 1. pipenv shell
 
-1. cd todoproject
+1. cd FitnessApp
 
 1. python manage.py makemigrations
 
