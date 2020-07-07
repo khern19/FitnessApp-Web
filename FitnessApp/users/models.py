@@ -10,4 +10,5 @@ class User(AbstractUser):
     last_name = models.CharField('Last Name', blank=True, max_length=30)
     username = models.CharField(
         'Username', unique=True, blank=False, max_length=20)
-    email = models.CharField('Email', unique=True, blank=True, max_length=70)
+    email = models.CharField('Email', unique=True, blank=True, max_length=100)
+    created_at = models.DateTimeField(auto_now_add=True)
