@@ -51,6 +51,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# SETTING THE USER MODEL FROM users APP
+AUTH_USER_MODEL = 'users.User'
+
 ROOT_URLCONF = 'FitnessApp.urls'
 
 TEMPLATES = [
