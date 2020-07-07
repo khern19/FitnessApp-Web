@@ -11,17 +11,18 @@
 * Database: Postgres
 
 ## How to run
+*using vscode*
 #### first terminal
 
 1. install Python 3.7, pip 
 
-1. pip install pipenv
+1. pip3 install pipenv
 
 1. pipenv install
 
 1. pipenv shell
 
-1. cd todoproject
+1. cd FitnessApp
 
 1. python manage.py makemigrations
 
