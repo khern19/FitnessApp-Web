@@ -11,7 +11,6 @@
 * Database: Postgres
 
 ## How to run
-*using vscode*
 #### first terminal
 
 1. install Python 3.7, pip 
@@ -33,6 +32,8 @@
 #### second terminal
 
 1. install latest version of node
+
+1. if the virtual environment isn't running pipenv shell
 
 1. npm install
 
