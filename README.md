@@ -32,6 +32,8 @@
 
 1. install latest version of node
 
+1. if the virtual environment isn't running pipenv shell
+
 1. npm install
 
 1. npm run dev
