@@ -18,6 +18,11 @@
     },
     "homepage": "https://github.com/khern19/FitnessApp-Web#readme",
     "devDependencies": {
+        "@babel/core": "^7.10.4",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/preset-react": "^7.10.4",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "bable-loader": "0.0.1-security",
         "webpack": "^4.43.0",
         "webpack-cli": "^3.3.12"
     }
