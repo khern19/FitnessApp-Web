@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 
 export class HomePage extends Component {
     render() {
-        return <div></div>
+        return (
+            <div>
+                <h1>COMING SOON</h1>
+            </div>
+        )
     }
 }
 
