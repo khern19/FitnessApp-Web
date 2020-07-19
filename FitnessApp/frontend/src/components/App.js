@@ -7,6 +7,8 @@ import store from '../store'
 
 import Header from './layout/Header'
 import HomePage from './home/HomePage'
+import Login from './accounts/Login'
+import Register from './accounts/Register'
 
 class App extends Component {
     render() {
@@ -18,6 +20,8 @@ class App extends Component {
                         <div>
                             <Switch>
                                 <Route exact path="/" component={HomePage} />
+                                <Route exact path="/register" component={Register} />
+                                <Route exact path="/login" component={Login} />
                             </Switch>
                         </div>
                     </Fragment>
