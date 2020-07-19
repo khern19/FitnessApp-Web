@@ -20,7 +20,7 @@ export class Header extends Component {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarColor02">
-                    <ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li className="nav-item">
                             <Link to="/register" className="nav-link">
                                 Register
