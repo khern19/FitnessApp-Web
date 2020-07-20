@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-.homepage {
+.standin {
     height: 50vh; /* Magic here */
     display: flex;
     justify-content: center;
