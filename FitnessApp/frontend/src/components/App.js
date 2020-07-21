@@ -7,8 +7,10 @@ import store from '../store'
 
 import Header from './layout/Header'
 import HomePage from './home/HomePage'
+import ProfilePage from './profile/ProfilePage'
 import Login from './accounts/Login'
 import Register from './accounts/Register'
+import PrivateRoute from './common/PrivateRoute'
 
 class App extends Component {
     render() {
@@ -22,6 +24,7 @@ class App extends Component {
                                 <Route exact path="/" component={HomePage} />
                                 <Route exact path="/register" component={Register} />
                                 <Route exact path="/login" component={Login} />
+                                <PrivateRoute exact path="/profile" component={ProfilePage} />
                             </Switch>
                         </div>
                     </Fragment>
