@@ -4,7 +4,7 @@ export class ProfilePage extends Component {
     render() {
         return (
             <div className="standin">
-                <h1>COMING SOON TO A DESKTOP NEAR YOU</h1>
+                <h1>THIS IS THE PROFILE PAGE</h1>
             </div>
         )
     }
