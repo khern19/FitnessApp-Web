@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 
 import { Provider } from 'react-redux'
 import store from '../store'
+import { loadUser } from '../actions/auth'
 
 import Header from './layout/Header'
 import HomePage from './home/HomePage'
@@ -13,6 +14,10 @@ import Register from './accounts/Register'
 import PrivateRoute from './common/PrivateRoute'
 
 class App extends Component {
+    componentDidMount() {
+        store.dispatch(loadUser())
+    }
+
     render() {
         return (
             <Provider store={store}>

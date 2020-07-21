@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-API_KEY_CUSTOM_HEADER = "HTTP_X_API_KEY"
+# API_KEY_CUSTOM_HEADER = "HTTP_X_API_KEY"
 
 # Application definition
 
@@ -42,16 +42,15 @@ INSTALLED_APPS = [
     'rest_framework',
     'frontend',
     'knox',
-    'accounts',
-    'rest_framework_api_key',
+    'accounts'
 ]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ('knox.auth.TokenAuthentication',),
 
-    "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework_api_key.permissions.HasAPIKey",
-    ]
+    # "DEFAULT_PERMISSION_CLASSES": [
+    #     "rest_framework_api_key.permissions.HasAPIKey",
+    # ]
 }
 
 MIDDLEWARE = [
@@ -94,7 +93,7 @@ WSGI_APPLICATION = 'FitnessApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite4'),
     }
 }
 
