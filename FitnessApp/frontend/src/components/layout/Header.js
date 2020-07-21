@@ -18,7 +18,7 @@ export class Header extends Component {
                     <strong>{user ? `Welcome ${user.username}` : ''}</strong>
                 </span>
                 <li className="nav-item">
-                    <button onClick={this.props.logout} className="btn btn-primary">
+                    <button onClick={this.props.logout} className="btn btn-warning disabled">
                         Logout
                     </button>
                 </li>
