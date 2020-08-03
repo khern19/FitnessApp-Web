@@ -1,6 +1,6 @@
 # FitnessApp-Web
 *currenly in progress*
-* working on creating the login and register page on login&register branch
+* working on login&register branch
 
 ## About
 *This website application will work as a fitness tracker, where the user will be able to input their workouts such as the name of the workouts, reps, sets, etc.*
