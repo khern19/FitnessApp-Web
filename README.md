@@ -1,8 +1,9 @@
 # FitnessApp-Web
 *currenly in progress*
+*using vs code and macos bash terminal*
 
 ## About
-*This website application will work as a fitness tracker, where the user will be able to input their workouts such as the name of the workouts, reps, sets, etc.*
+*This website application will work as a fitness instagram will people wil be able to post pictures and also have their workouts and meals*
 
 ## Technologies
 * Frontend: React.js
