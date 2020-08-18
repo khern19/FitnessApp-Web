@@ -1,19 +1,23 @@
 # FitnessApp-Web
-*currenly in progress*
-*using vs code and macos bash terminal*
+
+_currenly in progress_
+_using vs code and macos bash terminal_
 
 ## About
-*This website application will work as a fitness instagram will people wil be able to post pictures and also have their workouts and meals*
+
+_This website application will work as a fitness instagram where people will be able to post pictures and also have their workouts and meals_
 
 ## Technologies
-* Frontend: React.js
-* Backend: Django
-* Database: Postgres
+
+-   Frontend: React.js
+-   Backend: Django
+-   Database: Postgres
 
 ## How to run
+
 #### first terminal
 
-1. install Python 3.7, pip 
+1. install Python 3.7, pip
 
 1. pip3 install pipenv
 
