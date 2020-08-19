@@ -11,7 +11,7 @@ _This website application will work as a fitness instagram where people will be 
 
 -   Frontend: React.js
 -   Backend: Django
--   Database: Postgres
+-   Database: Postgres (_currently using Django's default db SQLite_)
 
 ## How to run
 
