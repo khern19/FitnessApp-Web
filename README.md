@@ -8,7 +8,7 @@
 ## Technologies
 * Frontend: React.js
 * Backend: Django
-* Database: Postgres(*currently using Django's default dbSQLite*)
+* Database: Postgres(*currently using Django's default db SQLite*)
 
 ## How to run
 #### first terminal
