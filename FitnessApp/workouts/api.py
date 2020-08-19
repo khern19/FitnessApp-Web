@@ -5,5 +5,10 @@ from .serializers import WorkoutSerializer
 # Workout viewset
 
 
-class WorkoutViewSet(viewset.ModelViewSet):
-    queryset = Workouts.objects.all()
+class WorkoutViewSet(viewsets.ModelViewSet):
+    # queryset = Workouts.objects.all()
+    permission_classes = [
+        permissions.AllowAny
+    ]
+
+    serializer_class = WorkoutSerializer
