@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "webpack --mode development --watch ./FitnessApp/frontend/src/index.js --output ./FitnessApp/frontend/static/frontend/main.js",
+        "build": "webpack --mode production ./FitnessApp/frontend/src/index.js --output ./FitnessApp/frontend/static/frontend/main.js"
     },
     "repository": {
         "type": "git",
